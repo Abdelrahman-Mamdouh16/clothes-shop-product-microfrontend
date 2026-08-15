@@ -151,7 +151,7 @@ export default function ProductDetails() {
 
         <div className="my-24">
           <h2 className="text-center text-3xl py-2">RELATED PRODUCTS</h2>
-          <div className="grid grid-cols-2! sm:grid-cols-3! md:grid-cols-4! lg:grid-cols-5! gap-5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
             {relatedProducts.map((item, index) => (
               <Link
                 key={index}

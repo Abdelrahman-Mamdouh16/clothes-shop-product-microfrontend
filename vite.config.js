@@ -10,6 +10,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   base: "/",
+  // base: "http://localhost:5001/",
 
   plugins: [
     react(),
@@ -49,4 +50,7 @@ export default defineConfig({
   server: {
     port: 5001,
   },
+  //   preview: {
+  //   port: 5001,
+  // },
 });
